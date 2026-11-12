@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Студия красоты «Виас» — Бийск, ул. 8 Марта, 18 (демо-макет)</title>
+<meta name="description" content="Студия красоты «Виас» в Бийске: мужские, женские и детские стрижки, окрашивание, уход и укладка. Запись через WhatsApp и ВКонтакте. Демо-макет.">
+<meta name="theme-color" content="#1a1410">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Cormorant+SC:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-scissors" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="38" r="5.5"/><circle cx="36" cy="38" r="5.5"/>
+      <path d="M15.5 33.5 36 5M32.5 33.5 12 5"/>
+    </symbol>
+    <symbol id="i-comb" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="3" y="12" width="42" height="9" rx="3"/>
+      <path d="M8 21v14M13.5 21v14M19 21v14M24.5 21v14M30 21v14M35.5 21v14M41 21v14"/>
+    </symbol>
+  </defs>
+</svg>
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="header" id="top">
+  <div class="header__in">
+    <a class="logo" href="#top" aria-label="Виас, студия красоты — на главную">
+      <span class="logo__ring"><span class="logo__name">VIAS</span><span class="logo__sub">студия красоты</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#services">Услуги</a>
+      <a href="#works">Работы</a>
+      <a href="#about">О студии</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn btn--sm" href="#booking">Записаться</a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Открыть меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <svg class="deco deco--tl" aria-hidden="true"><use href="#i-scissors"/></svg>
+  <svg class="deco deco--br" aria-hidden="true"><use href="#i-comb"/></svg>
+  <div class="wrap hero__in">
+    <div class="emblem"><p class="hero__logo">VIAS</p>
+    <p class="hero__sub">студия красоты</p></div>
+    <h1>Стрижки, окрашивание и уход в Бийске</h1>
+    <p class="lead">Мужские, женские и детские стрижки. Запись через WhatsApp или ВКонтакте.</p>
+    <div class="hero__row">
+      <a class="btn" href="#booking">Записаться</a>
+      <a class="badge" href="#reviews"><span class="badge__star" aria-hidden="true">★</span><span>Рейтинг 4,6 на 2ГИС</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="services" aria-labelledby="h-services">
+  <div class="wrap">
+    <h2 id="h-services">Услуги и цены</h2>
+    <div class="tabs" role="tablist" aria-label="Категории услуг">
+      <button role="tab" type="button" id="tab-men" aria-controls="panel-men" aria-selected="true">Мужская</button>
+      <button role="tab" type="button" id="tab-women" aria-controls="panel-women" aria-selected="false" tabindex="-1">Женская</button>
+      <button role="tab" type="button" id="tab-kids" aria-controls="panel-kids" aria-selected="false" tabindex="-1">Детская</button>
+      <button role="tab" type="button" id="tab-color" aria-controls="panel-color" aria-selected="false" tabindex="-1">Окрашивание</button>
+      <button role="tab" type="button" id="tab-care" aria-controls="panel-care" aria-selected="false" tabindex="-1">Уход и укладка</button>
+    </div>
+
+    <div class="panel" role="tabpanel" id="panel-men" aria-labelledby="tab-men">
+      <table class="price">
+        <caption class="sr">Мужская стрижка: услуги и цены</caption>
+        <thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Наголо<small>0–1 мм, машинкой</small></td><td>250 ₽</td></tr>
+          <tr><td>Спортивная 3 мм</td><td>350 ₽</td></tr>
+          <tr><td>Спортивная 3/6 мм<small>двухуровневая, чёткая граница</small></td><td>500 ₽</td></tr>
+          <tr><td>Спортивная 3/6/9/12 мм<small>плавный переход</small></td><td>600 ₽</td></tr>
+          <tr><td>Модельная<small>ножницами и филировкой под форму головы</small></td><td>700 ₽</td></tr>
+          <tr><td>Креативная<small>авторская, асимметрия</small></td><td>800 ₽</td></tr>
+          <tr><td>Стрижка бороды<small>под машинку</small></td><td>500 ₽</td></tr>
+          <tr><td>Оформление бороды</td><td>700 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel" role="tabpanel" id="panel-women" aria-labelledby="tab-women" hidden>
+      <table class="price">
+        <caption class="sr">Женская стрижка: услуги и цены</caption>
+        <thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Модельная короткая</td><td>800 ₽</td></tr>
+          <tr><td>Модельная средняя<small>каре, боб-каре</small></td><td>900 ₽</td></tr>
+          <tr><td>Модельная длинных волос<small>шегги, каскад</small></td><td>1 000 ₽</td></tr>
+          <tr><td>Оформление чёлки</td><td>300 ₽</td></tr>
+          <tr><td>Подравнивание волос</td><td>500 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel" role="tabpanel" id="panel-kids" aria-labelledby="tab-kids" hidden>
+      <table class="price">
+        <caption class="sr">Детская стрижка: услуги и цены</caption>
+        <thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Спортивная<small>до 7 лет, мальчик</small></td><td>500 ₽</td></tr>
+          <tr><td>Модельная<small>до 7 лет, мальчик</small></td><td>700 ₽</td></tr>
+          <tr><td>Девочка до 7 лет<small>каре, боб, лёгкий каскад</small></td><td>600 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel" role="tabpanel" id="panel-color" aria-labelledby="tab-color" hidden>
+      <table class="price">
+        <caption class="sr">Окрашивание: услуги и цены</caption>
+        <thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Мелирование, растяжка цвета, аир тач<small>короткие волосы</small></td><td>2 000 ₽</td></tr>
+          <tr><td>Мелирование, растяжка цвета, аир тач<small>средние волосы</small></td><td>3 000 ₽</td></tr>
+          <tr><td>Мелирование, растяжка цвета, аир тач<small>длинные волосы</small></td><td>5 000 ₽</td></tr>
+          <tr><td>Покраска тон в тон<small>короткие волосы</small></td><td>2 800 ₽</td></tr>
+          <tr><td>Покраска тон в тон<small>средние волосы</small></td><td>3 000 ₽</td></tr>
+          <tr><td>Покраска тон в тон<small>длинные волосы</small></td><td>4 000 ₽</td></tr>
+          <tr><td>Био-химическая завивка<small>Niagara, 50 г</small></td><td>2 500 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="panel" role="tabpanel" id="panel-care" aria-labelledby="tab-care" hidden>
+      <table class="price">
+        <caption class="sr">Уход и укладка: услуги и цены</caption>
+        <thead><tr><th scope="col">Услуга</th><th scope="col">Цена</th></tr></thead>
+        <tbody>
+          <tr><td>Укладка коротких волос<small>брашинг</small></td><td>1 200 ₽</td></tr>
+          <tr><td>Укладка средних волос</td><td>1 500 ₽</td></tr>
+          <tr><td>Укладка диффузором<small>кудри, прикорневой объём</small></td><td>2 000 ₽</td></tr>
+          <tr><td>Выпрямление утюжком</td><td>800 ₽</td></tr>
+          <tr><td>Криореконструкция волос<small>глубокое восстановление холодом</small></td><td>1 500 ₽</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><svg><use href="#i-scissors"/></svg></div>
+
+<section class="sec" id="works" aria-labelledby="h-works">
+  <div class="wrap">
+    <h2 id="h-works">Наши работы</h2>
+    <ul class="gallery">
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/1.jpg" alt="Короткая женская стрижка, светлое окрашивание" loading="lazy" onerror="this.style.display='none'"></li>
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/2.jpg" alt="Химическая завивка на коклюшки" loading="lazy" onerror="this.style.display='none'"></li>
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/3.jpg" alt="Окрашивание волос кистью" loading="lazy" onerror="this.style.display='none'"></li>
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/4.jpg" alt="Мытьё головы и уход за волосами" loading="lazy" onerror="this.style.display='none'"></li>
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/5.jpg" alt="Нанесение состава на волосы" loading="lazy" onerror="this.style.display='none'"></li>
+      <li class="tile"><svg class="tile__ph" aria-hidden="true"><use href="#i-scissors"/></svg><img src="photos/6.jpg" alt="Машинки для стрижки и бритья" loading="lazy" onerror="this.style.display='none'"></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="about" aria-labelledby="h-about">
+  <div class="wrap">
+    <h2 id="h-about">О студии</h2>
+    <ul class="about">
+      <li><svg aria-hidden="true"><use href="#i-scissors"/></svg><h3>Для всей семьи</h3><p>Мужские, женские и детские стрижки.</p></li>
+      <li><svg aria-hidden="true"><use href="#i-comb"/></svg><h3>Цвет и уход</h3><p>Окрашивание и уход за волосами.</p></li>
+      <li><svg aria-hidden="true"><use href="#i-scissors"/></svg><h3>Удобная запись</h3><p>Запись через мессенджер.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sec" id="reviews" aria-labelledby="h-reviews">
+  <div class="wrap reviews">
+    <h2 id="h-reviews">Отзывы</h2>
+    <p class="rating"><span class="rating__num">4,6</span><span class="rating__stars" aria-hidden="true">★★★★★</span></p>
+    <p class="rating__sub">Рейтинг на 2ГИС: 34 оценки</p>
+    <a class="btn btn--ghost" href="https://2gis.ru/firm/2815278048120243" target="_blank" rel="noopener">Смотреть отзывы на 2ГИС</a>
+  </div>
+</section>
+
+<section class="sec sec--alt" id="booking" aria-labelledby="h-booking">
+  <div class="wrap booking">
+    <div>
+      <h2 id="h-booking">Записаться</h2>
+      <p class="note">Студия принимает записи в мессенджерах. Напишите нам, и мы подберём время.</p>
+      <div class="msgr">
+        <a class="btn btn--lg" href="https://wa.me/79069652618" target="_blank" rel="noopener">Написать в WhatsApp</a>
+        <a class="btn btn--lg btn--ghost" href="https://vk.ru/id715829122" target="_blank" rel="noopener">Мы ВКонтакте</a>
+      </div>
+    </div>
+    <form class="form" id="form" novalidate>
+      <h3>Заявка на запись</h3>
+      <label for="f-name">Имя</label>
+      <input id="f-name" name="name" type="text" autocomplete="name" required>
+      <label for="f-phone">Телефон</label>
+      <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+7" required>
+      <label for="f-service">Услуга</label>
+      <select id="f-service" name="service">
+        <option>Мужская стрижка</option>
+        <option>Женская стрижка</option>
+        <option>Детская стрижка</option>
+        <option>Окрашивание</option>
+        <option>Уход и укладка</option>
+      </select>
+      <label class="check"><input type="checkbox" id="f-agree" required>
+        <span>Согласен на обработку персональных данных в соответствии с <a href="#">политикой конфиденциальности</a></span></label>
+      <button class="btn" type="submit">Отправить заявку</button>
+      <p class="form__msg" id="form-msg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<section class="sec" id="contacts" aria-labelledby="h-contacts">
+  <div class="wrap contacts">
+    <h2 id="h-contacts">Контакты</h2>
+    <dl class="info">
+      <dt>Адрес</dt><dd>Бийск, ул. 8 Марта, 18, 1 этаж</dd>
+    </dl>
+    <a class="btn btn--ghost map-link" href="https://2gis.ru/firm/2815278048120243" target="_blank" rel="noopener">Показать на карте 2ГИС</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__in">
+    <span>© Виас</span>
+    <a href="#">Политика конфиденциальности</a>
+    <span>Демо-макет</span>
+  </div>
+</footer>
+
+<a class="fab" href="#booking">Записаться</a>
+<script src="script.js"></script>
+</body>
+</html>
